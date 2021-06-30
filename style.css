@@ -145,7 +145,7 @@ a {
 
   display: grid;
   grid-template-columns: 10% 40% 40% 10%;
-  grid-template-rows: 20% 40% 40%;
+  grid-template-rows: 30% 35% 35%;
   background-color: #111111;
   color: #fff;
 }
@@ -170,7 +170,7 @@ a {
   grid-column: 2/3;
   grid-row: 2/3;
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 20% 75% 5%;
   grid-template-rows: 100%;
 }
 
@@ -180,4 +180,37 @@ a {
 
 .txt {
   grid-column: 2/3;
+}
+
+.practice p {
+  font-size: 1rem;
+  line-height: 2;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 2rem;
+}
+
+.practice span {
+  font-size: 1.5rem;
+  font-family: "Playfair Display", sans-serif;
+}
+
+.lne {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: 20% 75% 5%;
+}
+
+.cyber {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  display: grid;
+  grid-template-columns: 20% 75% 5%;
+}
+
+.realestate {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  display: grid;
+  grid-template-columns: 20% 75% 5%;
 }
